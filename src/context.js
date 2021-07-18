@@ -8,4 +8,10 @@ const AppProvider = ({children}) =>{
     </AppContext.Provider>
 }
 
-export {AppContext,AppProvider};
+//custom hook
+const UseGlobal = () => {
+    const data = useContext(AppContext);
+    return data;
+}
+
+export {AppContext,AppProvider,UseGlobal} ;
