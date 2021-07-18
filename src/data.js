@@ -1,10 +1,8 @@
 import React from 'react';
 import {
-  FaBehance,
+  FaGithub,
   FaFacebook,
   FaLinkedin,
-  FaTwitter,
-  FaSketch,
   FaHome,
   FaUserFriends,
   FaFolderOpen,
@@ -44,30 +42,19 @@ export const links = [
   },
 ];
 
-export const social = [
-  {
-    id: 1,
-    url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
-  },
-  {
-    id: 2,
-    url: 'https://www.twitter.com',
-    icon: <FaTwitter />,
-  },
-  {
-    id: 3,
-    url: 'https://www.twitter.com',
-    icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaBehance />,
-  },
-  {
-    id: 5,
-    url: 'https://www.twitter.com',
-    icon: <FaSketch />,
-  },
-];
+export const social = [{
+  id: 1,
+  url: 'https://www.facebook.com/profile.php?id=100057356125529',
+  icon: < FaFacebook / > ,
+},
+{
+  id: 2,
+  url: 'https://github.com/arun-kushwaha04',
+  icon: < FaGithub / > ,
+},
+{
+  id: 3,
+  url: 'https://www.linkedin.com/in/arun-singh-kushwaha-087652207/',
+  icon: < FaLinkedin / > ,
+},
+]
